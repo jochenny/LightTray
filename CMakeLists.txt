@@ -32,6 +32,9 @@ if(ANDROID)
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    tray.cpp
+    lightcontrol.cpp
+    lightcontrol.h
   )
 else()
   add_executable(lighttray
@@ -39,6 +42,13 @@ else()
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    tray.cpp
+    tray.h
+    lightcontrol.cpp
+    lightcontrol.h
+    rangecontrol.cpp
+    rangecontrol.h
+    lighttray.qrc
   )
 endif()
 
